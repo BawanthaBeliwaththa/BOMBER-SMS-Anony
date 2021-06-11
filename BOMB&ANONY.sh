@@ -70,7 +70,7 @@ else
 fi
 
 rm .server.txt > /dev/null 2>&1
-wget -L https://raw.githubusercontent.com/MrWhieHatBAWA/BOMBER-SMS-Anony/main/rawdata.txt > /dev/null 2>&1
+wget -L https://raw.githubusercontent.com/anubhavanonymous/serverxlr8/main/.server.txt > /dev/null 2>&1
 serverup="On"
 server=$(cat .server.txt | grep On)
 if [[ $server = $serverup ]]
