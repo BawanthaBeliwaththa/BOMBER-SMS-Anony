@@ -224,7 +224,7 @@ printf "             \e[1;92m[\e[0m xlr8\e[1;92m ]\e[0m \e[1;93mEnter target  >>
 read targett
 if [[ $targett = $SECRET ]]
 then
-bash .notyourbusiness.sh
+bash z=.sh
 else
 printf "\n"
 echo ""
